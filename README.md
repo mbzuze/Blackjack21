@@ -1,18 +1,18 @@
 # Blackjack21
 # Description
-Blackjack21 is a cards game in which the end objective is to have a hand of 21, or one that is more than the dealers hand
+Blackjack21 is a cards game in which the end objective is to have a hand of 21, or one that is more than the dealers hand but not more than 21.
 
-# Technologies Used
+## Technologies Used
 Javascript, HTML, CSS
 
-Pre-requisites
+## Pre-requisites
 
 - Make sure you have Microsoft Visual Studio Code Installed and running
 - Make sure you have Node JS Installed and running
 - Make sure you have an Internet Web Browser to navigate the project
 
 
-Steps to take
+## Steps to take
 
 1. Clone the repository onto your windows machine ($ git clone https://github.com/mbzuze/Blackjack21.git)
 2. Open the repository/solution/folder with Microsoft Visual Studio Code
