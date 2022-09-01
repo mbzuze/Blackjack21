@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack 21</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Blackjack<span>21</span></h2>
+        
+        <!-- error display box -->
+        <div id="error"></div>
+
+        <!-- Dealer's container -->
+        <div class="flex-players-row">
+            <div id="dealer-box">
+                <h2>Dealer: <span id="dealer-blackjack-score">0</span><br><span hidden id="dealer-blackjack-result"></span></h2>
+                <div class="flex-player-menu-row" id="dealer"><select id="dealer-search-deck" class="menu-item"></select><div class="menu-item" id="dealer-hit">Hit</div></div>
+            </div>
+        </div>
+
+        <!-- Menu bar options -->
+        <div class="flex-menu-row">
+            <!-- Toggle option for Manual or Automatic card selection -->
+            <div class="menu-item" id="toggle">Manual Hit Mode</div>
+
+            <!-- Game options: Stand to finalize results, and deal to restart the game with created users -->
+            <div class="menu-item" id="stand">Stand</div>
+            <div class="menu-item" id="deal">Deal</div>
+
+            <!-- Add player button with text for the player name -->
+            <div class="menu-item" id="add">Add Player</div>
+            <input type="text" class="menu-item" name="player-name" id="player-name" placeholder="Enter Player Name">
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/scripts/main.js"></script>
+</body>
+</html>

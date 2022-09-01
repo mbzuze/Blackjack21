@@ -1,0 +1,13 @@
+{
+  "name": "blackjack21",
+  "version": "1.0.0",
+  "description": "This is an assessment project for Entelect.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Munotidaishe Zuze",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

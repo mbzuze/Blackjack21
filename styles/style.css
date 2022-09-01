@@ -1,0 +1,102 @@
+*{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+}
+
+.container span:first-child{
+    color: #ff0000;
+}
+
+.flex-tally-row,
+.flex-players-row {
+    display: flex;
+    padding: 0.3rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-players-row {
+display: list-item;
+}
+
+.flex-players-row div{
+    padding: 0.75rem;
+    flex: 1;
+    /* height: 350px; */
+    text-align: center;
+}
+
+.flex-players-row div img {
+    padding: 0.30rem;
+    object-fit: contain;
+}
+.flex-menu-row {
+    display: flex;
+    justify-content:center;
+}
+
+.flex-menu-row .menu-item {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    margin: 0.125rem;
+    padding: 0.75rem;
+    border-radius: 0.1875rem;
+}
+
+.flex-player-menu-row .menu-item {
+    display: inline-block;
+    background-color: #222;
+    color: #fff;
+    margin: 0.125rem;
+    padding: 0.75rem;
+    border-radius: 0.1875rem;
+    height: auto;
+}
+
+.flex-menu-row .menu-item:hover,
+.flex-player-menu-row .menu-item:hover{
+    background-color:#fff;
+    box-shadow:0 1px 2px rgba(0,0,0,0.25);
+    color:#222
+}
+
+.flex-menu-row .menu-item:active,
+.flex-player-menu-row .menu-item:active{
+    background-color:#fff;
+    box-shadow:inset 0 1px 3px rgba(0,0,0,0.375);
+    color:#555
+}
+
+table,
+th,
+td {
+padding: 0.3rem;
+border: 1px solid gray;
+color:#000;
+align-items: center;
+text-align: center;
+}
+
+#win-header{
+color: green;
+}
+#loss-header{
+    color: red;
+}
+#draw-header{
+    color: orange;
+}
